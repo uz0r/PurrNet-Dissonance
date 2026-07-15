@@ -60,7 +60,7 @@ to `None` and call `TryRunManually()` after PurrNet has reached its intended rol
 
 ```csharp
 using Dissonance.Integrations.PurrNet;
-using PurrNet;
+using UnityEngine;
 
 public sealed class StartVoiceWhenReady : MonoBehaviour
 {
@@ -68,9 +68,7 @@ public sealed class StartVoiceWhenReady : MonoBehaviour
 
     public void StartVoice()
     {
-        var network = NetworkManager.main;
-        if (network != null && (network.isHost || network.isServerOnly || network.isClientOnly))
-            voice.TryRunManually();
+        voice.TryRunManually();
     }
 }
 ```
