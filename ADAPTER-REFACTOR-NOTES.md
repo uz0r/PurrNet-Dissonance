@@ -1,4 +1,4 @@
-# PurrNet ↔ Dissonance adapter — fork changes
+# PurrNet ↔ Dissonance Adapter Refactor Notes
 
 Fixes for the PurrNet Dissonance integration (`BobsiUnity/PurrNet-VoiceChat`,
 `Dissonance.Integrations.PurrNet`) that make voice work reliably with the PurrNet

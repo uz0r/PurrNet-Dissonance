@@ -106,7 +106,7 @@ and one to three clients, including disconnect and reconnect orders. Standalone
 builds and real headless dedicated-server deployments still need explicit testing.
 
 For the complete rationale, edge cases, and validation scope, see
-[implementation notes](FORK-CHANGES.md).
+[adapter refactor notes](ADAPTER-REFACTOR-NOTES.md).
 
 ## 💬 Help
 
